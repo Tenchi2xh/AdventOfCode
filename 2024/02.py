@@ -9,11 +9,10 @@ def is_safe(r: List[int]) -> bool:
     pairs = [(r[i], r[i + 1]) for i in range(len(r) - 1)]
     offsets = [a - b for a, b in pairs]
 
-    if all(o > 0 for o in offsets) or all(o < 0 for o in offsets):
-        if all(abs(o) <= 3 for o in offsets):
-            return True
-
-    return False
+    return (
+        (all(o > 0 for o in offsets) or all(o < 0 for o in offsets))
+        and all(abs(o) <= 3 for o in offsets)
+    )
 
 
 def is_safe_dampened(r: List[int]) -> bool:
@@ -46,7 +45,7 @@ def example():
 if __name__ == "__main__":
     example()
 
-    with open("02.input", "r") as f:
+    with open("2024/02.input", "r") as f:
         reports = parse_reports(f.read())
     print(sum(is_safe(r) for r in reports))
     print(sum(is_safe_dampened(r) for r in reports))

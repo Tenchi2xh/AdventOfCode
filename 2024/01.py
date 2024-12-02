@@ -38,7 +38,7 @@ def example():
 if __name__ == "__main__":
     example()
 
-    with open("01.input", "r") as f:
+    with open("2024/01.input", "r") as f:
         l0, l1 = parse_lists(f.read())
 
     print(distance(l0, l1))
