@@ -1,0 +1,15 @@
+J                     J = (sorted(list0), sorted(list1))
+  mSdC                Transpose rows into columns, sort
+    m
+      mskcd"  "       Split on spaces and parse to int 2-tuples
+      .z              stdin
+
+s                     Print sum of differences
+  m
+    a.*d               abs(a - b) each pair
+    CJ                 Untranspose J into pairs
+
+s                     Print sum of similarities
+  m
+    *d/@J1d           Map each a into a * list1.count(a)
+    @J0               Map over list0
