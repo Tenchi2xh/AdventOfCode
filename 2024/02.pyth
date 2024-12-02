@@ -1,0 +1,23 @@
+J                     J = list of reports
+  m
+    mskcd" "          Split lines on spaces and parse to lists of ints
+    .z                stdin
+
+DCb                   def C(b) => def is_safe(report)
+  K.+b                K = deltas(report)
+  R                   return:
+    &
+      |
+        .Am>d0K       all deltas positive
+        .Am<d0K       or all deltas negative
+      .Am!>.ad3K      and all deltas <= 3
+
+L                     def y(b) => def is_safe_dampened(report)
+  |
+    Cb                is_safe(b) or
+    .Em               any(
+      C+<bd>b+1d        is_safe(b[:d] + b[d + 1:])
+      Ub              for d in range(len(b)))
+
+smCdJ                 print sum of all safe reports
+smydJ                 print sum of all dampenedly safe reports

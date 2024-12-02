@@ -16,14 +16,7 @@ def is_safe(r: List[int]) -> bool:
 
 
 def is_safe_dampened(r: List[int]) -> bool:
-    if is_safe(r):
-        return True
-
-    for i in range(len(r)):
-        if is_safe(r[:i] + r[i + 1:]):
-            return True
-
-    return False
+    return is_safe(r) or any(is_safe(r[:i] + r[i + 1:]) for i in range(len(r)))
 
 
 example_reports = """
