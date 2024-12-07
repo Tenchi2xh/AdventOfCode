@@ -23,6 +23,12 @@
 ### Python
 
 - `2024/01`: I wanted to memoize the counts in `similarity()`, and discovered that instead of doing `{a: l1.count(a) for a in l0}`, `collections` provides a nifty `Counter` class.
+- `2024/07`: How to `reduce` with an operator that changes each time it's called:
+    ```py
+    operands = ...         # [1, 2, 3, 4]
+    operators = iter(...)  # ("*", "+", "/")
+    result = reduce(lambda a, b: next(operators)(a, b), operands)
+    ```
 
 ### Scala
 
