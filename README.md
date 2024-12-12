@@ -41,16 +41,17 @@
 
 ## Part 2 times
 
-Format: yyyy/dd, h:mm
+Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 
-- `2024/01`, 0:08
-- `2024/02`, 0:05
-- `2024/03`, 0:15: Straight forward, but had an issue with regexes
-- `2024/04`, 0:08
-- `2024/05`, 0:07
-- `2024/06`, 0:20: Mistake was overwriting the same map with walls
-- `2024/07`, 0:03
-- `2024/08`, 0:10
-- `2024/09`, 1:44: Tried to write a different approach with classes, went back to just blocks
-- `2024/10`, 0:03
-- `2024/11`, 1:00: Brute force part 1 didn't work for part 2, needed refactoring and memoization
+- `2024/01, 0:08`
+- `2024/02, 0:05`
+- `2024/03, 0:15`: Straight forward, but had an issue with regexes
+- `2024/04, 0:08`
+- `2024/05, 0:07`
+- `2024/06, 0:20`: Mistake was overwriting the same map with walls
+- `2024/07, 0:03`
+- `2024/08, 0:10`
+- `2024/09, 1:44`: Tried to write a different approach with classes, went back to just blocks
+- `2024/10, 0:03`
+- `2024/11, 1:00`: Brute force part 1 didn't work for part 2, needed refactoring and memoization
+- `2024/12, 0.38`: Challenging to invent an algorithm for counting distinct edges
