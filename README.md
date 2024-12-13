@@ -54,4 +54,5 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/09, 1:44`: Tried to write a different approach with classes, went back to just blocks
 - `2024/10, 0:03`
 - `2024/11, 1:00`: Brute force part 1 didn't work for part 2, needed refactoring and memoization
-- `2024/12, 0.38`: Challenging to invent an algorithm for counting distinct edges
+- `2024/12, 0:38`: Challenging to invent an algorithm for counting distinct edges
+- `2024/13, 0:04`
