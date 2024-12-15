@@ -57,3 +57,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/12, 0:38`: Challenging to invent an algorithm for counting distinct edges
 - `2024/13, 0:04`
 - `2024/14, 0:09`
+- `2024/15, 0:22`: Part 2 introduced chain reactions, which needed recursion/stacks.
