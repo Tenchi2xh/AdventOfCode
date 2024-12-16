@@ -34,6 +34,7 @@
     operators = iter(...)  # ("*", "+", "/")
     result = reduce(lambda a, b: next(operators)(a, b), operands)
     ```
+- `2024/16`: Dijkstra is much easier with a priority queue using `heapq`.
 
 ### Scala
 
@@ -58,3 +59,5 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/13, 0:04`
 - `2024/14, 0:09`
 - `2024/15, 0:22`: Part 2 introduced chain reactions, which needed recursion/stacks.
+- `2024/16, 1:26`: Trouble with keeping all the paths in Dijkstra part 2.
+    Solution was to also keep both position AND direction in the dictionary of visited positions, and keep track of the current path in the priority queue.
