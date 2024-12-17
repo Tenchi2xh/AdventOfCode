@@ -61,3 +61,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/15, 0:22`: Part 2 introduced chain reactions, which needed recursion/stacks.
 - `2024/16, 1:26`: Trouble with keeping all the paths in Dijkstra part 2.
     Solution was to also keep both position AND direction in the dictionary of visited positions, and keep track of the current path in the priority queue.
+- `2024/17, 1:23`: Another non-bruteforceable part 2, needed to reverse engineer the assembly program.
