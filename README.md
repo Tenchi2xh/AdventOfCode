@@ -35,6 +35,7 @@
     result = reduce(lambda a, b: next(operators)(a, b), operands)
     ```
 - `2024/16`: Dijkstra is much easier with a priority queue using `heapq`.
+- `2024/18`: Binary search ftw. Discovered that stdlib `bisect.bisect_left` can do a binary search (but manually writing is only 3 lines).
 
 ### Scala
 
@@ -62,3 +63,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/16, 1:26`: Trouble with keeping all the paths in Dijkstra part 2.
     Solution was to also keep both position AND direction in the dictionary of visited positions, and keep track of the current path in the priority queue.
 - `2024/17, 1:23`: Another non-bruteforceable part 2, needed to reverse engineer the assembly program.
+- `2024/18, 0:13`
