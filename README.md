@@ -64,3 +64,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
     Solution was to also keep both position AND direction in the dictionary of visited positions, and keep track of the current path in the priority queue.
 - `2024/17, 1:23`: Another non-bruteforceable part 2, needed to reverse engineer the assembly program.
 - `2024/18, 0:13`
+- `2024/19, 0:34`: Instead of trying to return all possible arrangements, which made the recursion more complicated, all I needed was to count the successful arrangement (while memoizing).
