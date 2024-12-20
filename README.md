@@ -65,3 +65,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/17, 1:23`: Another non-bruteforceable part 2, needed to reverse engineer the assembly program.
 - `2024/18, 0:13`
 - `2024/19, 0:34`: Instead of trying to return all possible arrangements, which made the recursion more complicated, all I needed was to count the successful arrangement (while memoizing).
+- `2024/20, 1:20`: Part 2 is weirdly worded, and again it was much easier to only count the good solutions instead of finding them.
