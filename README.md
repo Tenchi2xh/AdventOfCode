@@ -36,6 +36,7 @@
     ```
 - `2024/16`: Dijkstra is much easier with a priority queue using `heapq`.
 - `2024/18`: Binary search ftw. Discovered that stdlib `bisect.bisect_left` can do a binary search (but manually writing is only 3 lines).
+- `2024/21`: When you don't have time to do a smart memoization, spam `functools.cache` everywhere.
 
 ### Scala
 
@@ -66,3 +67,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/18, 0:13`
 - `2024/19, 0:34`: Instead of trying to return all possible arrangements, which made the recursion more complicated, all I needed was to count the successful arrangement (while memoizing).
 - `2024/20, 1:20`: Part 2 is weirdly worded, and again it was much easier to only count the good solutions instead of finding them.
+- `2024/21, 0:48`: For this one, even Part 1 took about two hours. It was hard to exactly implement the problem description and even get the example to be 100% correct. In the end, I think that the part that caused the most bugs was not detecting invalid positions when hovering over an empty square.
