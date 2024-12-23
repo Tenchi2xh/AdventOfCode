@@ -69,3 +69,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/20, 1:20`: Part 2 is weirdly worded, and again it was much easier to only count the good solutions instead of finding them.
 - `2024/21, 0:48`: For this one, even part 1 took about two hours. It was hard to exactly implement the problem description and even get the example to be 100% correct. In the end, I think that the part that caused the most bugs was not detecting invalid positions when hovering over an empty square.
 - `2024/22, 0:50`: Not particularly a hard part 2, it's just a completely new problem compared to part 1 so it took time to implement.
+- `2024/23, 0:23`: Learned and implemented a new graph theory algorithm, the [Bron-Kerbosch algorithm](https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm).
