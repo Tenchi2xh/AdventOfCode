@@ -1,4 +1,6 @@
 *.input
+*.svg
+*.mmd
 private_notes
 
 .bsp/
