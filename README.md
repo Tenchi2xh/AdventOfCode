@@ -71,3 +71,4 @@ Format: `yyyy/dd, h:mm`. For times lnger than 15 minutes, an explanation on why.
 - `2024/22, 0:50`: Not particularly a hard part 2, it's just a completely new problem compared to part 1 so it took time to implement.
 - `2024/23, 0:23`: Learned and implemented a new graph theory algorithm, the [Bron-Kerbosch algorithm](https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm).
 - `2024/24, 2:37`: Fun problem! I don't even know where to start with part 2 programmatically, a brute force would take years. Ended up visualizing the circuit. Since the puzzle says it's a circuit that adds two numbers, I assumed correctly that it would be a chain of [full adders](https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder). After fiddling a while with [Mermaid](https://mermaid.js.org/), I finally managed to organize the output circuit so that mistakes are obvious to spot.
+- `2024/25, 0:01`: Not a puzzle
